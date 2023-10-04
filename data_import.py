@@ -1,4 +1,4 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 Rumors = pd.read_csv('CC GENERAL.csv')
-print(Rumors)
+print(Rumors.to_string())
